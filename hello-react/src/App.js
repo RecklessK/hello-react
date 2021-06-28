@@ -3,7 +3,7 @@ import MyComponent from "./MyComponent";
 
 class App extends Component {
   render() {
-    return <MyComponent />
+    return <MyComponent>[태그사이 리액트]</MyComponent>;
   }
 }
 
