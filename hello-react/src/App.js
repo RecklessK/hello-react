@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 class App extends Component {
   render() {
-    return <MyComponent>[태그사이 리액트]</MyComponent>;
+    return <Counter />;
   }
 }
 
