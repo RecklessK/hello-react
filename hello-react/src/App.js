@@ -13,7 +13,11 @@ class App extends Component {
     //return <ValidationSample />;
     return (
       <div>
-        <ScrollBox ref={(ref) => (this.ScrollBox = ref)} />
+        <ScrollBox
+          ref={(ref) => {
+            this.ScrollBox = ref;
+          }}
+        />
         <button onClick={() => this.ScrollBox.scrollToBottom()}>
           맨 밑으로
         </button>
