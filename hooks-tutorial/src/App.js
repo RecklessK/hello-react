@@ -2,8 +2,8 @@ import React from "react";
 //import "./App.css";
 //import Counter from "./Counter";
 // import Info from "./Info";
-// import Inforeducer from "./Inforeducer";
-import Average from "./Average";
+import Inforeducer from "./Inforeducer";
+//import Average from "./Average";
 
 function App() {
   // const [visible, setVisible] = useState(false);
@@ -21,8 +21,8 @@ function App() {
   //   </div>
   // );
   //return <Counter />;
-  // return <Inforeducer />;
-  return <Average />;
+  return <Inforeducer />;
+  // return <Average />;
 }
 
 export default App;
