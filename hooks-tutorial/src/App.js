@@ -1,6 +1,6 @@
 import React from "react";
 //import "./App.css";
-//import Counter from "./Counter";
+import Counter from "./Counter_old";
 // import Info from "./Info";
 import Inforeducer from "./Inforeducer";
 //import Average from "./Average";
@@ -20,8 +20,8 @@ function App() {
   //     {visible && <Info />}
   //   </div>
   // );
-  //return <Counter />;
-  return <Inforeducer />;
+  return <Counter />;
+  // return <Inforeducer />;
   // return <Average />;
 }
 
